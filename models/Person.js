@@ -14,7 +14,7 @@ const userSchema = new mongoose.Schema({
 
     user:{
         type:String,
-        enum:['reader' ,  'admin' , 'author']
+        enum:['reader' , 'admin' , 'author']
     } ,
 
     phone:{
